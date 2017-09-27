@@ -23,8 +23,8 @@
 
 set -eu
 
-LXC_HOOK_DIR="/usr/share/lxc/hooks"
-LXC_TEMPLATE_CONFIG="/usr/share/lxc/config"
+LXC_HOOK_DIR="/run/current-system/sw/share/lxc/hooks"
+LXC_TEMPLATE_CONFIG="/run/current-system/sw/share/lxc/config"
 
 LXC_MAPPED_GID=
 LXC_MAPPED_UID=
